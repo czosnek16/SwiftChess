@@ -46,7 +46,7 @@ open class Player {
         }
     }
 
-    func canMovePiece(from fromLocation: BoardLocation, to toLocation: BoardLocation) throws -> Bool {
+    public func canMovePiece(from fromLocation: BoardLocation, to toLocation: BoardLocation) throws -> Bool {
         
         guard let game = self.game else { return false }
         

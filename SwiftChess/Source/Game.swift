@@ -40,7 +40,7 @@ public final class Game {
     public internal(set) var board: Board
     public let whitePlayer: Player!
     public let blackPlayer: Player!
-    public internal(set) var currentPlayer: Player!
+    public private(set) var currentPlayer: Player!
     public internal(set) var state = Game.State.inProgress
     public weak var delegate: GameDelegate?
     
